@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <link rel="stylesheet" href="styles.css">  
+</head>
+<body>
+
+  <div class="flex">
+    <div class="flex1">
+      <div class="image-box">
+        <img class="illustration-image" src="images/illustration-woman-online-mobile.svg" alt="">
+      </div>
+    </div>
+
+    <div class="flex2">
+      <h1 class="FAQ">FAQ</h1>
+      <div id="button-info-container">
+        <button id="button1">
+          How many team members can I invite?
+          <div id="img-container">
+            <img id="arrow-icon1" src="images/icon-arrow-down.svg" alt="">
+          </div>
+        </button>
+        <div id="info1" style="display: none;">
+          You can invite up to 2 additional users on the Free plan. There is no limit on 
+            team members for the Premium plan.
+        </div>
+
+        <div id="button-info-container">
+          <button id="button2">
+            What is the maximum file upload size?
+            <div id="img-container">
+              <img id="arrow-icon2" src="images/icon-arrow-down.svg" alt="">
+            </div>
+          </button>
+          <div id="info2" style="display: none;">
+            No more than 2GB. All files in your account must fit your allotted storage space.
+          </div>
+        </div>
+
+        <div id="button-info-container">
+          <button id="button3">
+            How do I reset my password?
+            <div id="img-container">
+              <img id="arrow-icon3" src="images/icon-arrow-down.svg" alt="">
+            </div>
+          </button>
+          <div id="info3" style="display: none;">
+            Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.
+          </div>
+        </div>
+
+        <div id="button-info-container">
+          <button id="button4">
+            Can I cancel my subscription?
+            <div id="img-container">
+              <img id="arrow-icon4" src="images/icon-arrow-down.svg" alt="">
+            </div>
+          </button>
+          <div id="info4" style="display: none;">
+            Yes! Send us a message and we’ll process your request no questions asked.
+          </div>
+        </div>
+
+        <div id="button-info-container">
+          <button id="button5">
+            Do you provide additional support?
+            <div id="img-container">
+              <img id="arrow-icon5" src="images/icon-arrow-down.svg" alt="">
+            </div>
+          </button>
+          <div id="info5" style="display: none;">
+            Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
